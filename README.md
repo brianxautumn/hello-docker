@@ -45,3 +45,9 @@ Then stop it with:
 ```
 $ docker stop <container id>
 ```
+
+## Try from dockerhub
+Optionally, try my docker image. This will auto pull it too.
+```
+$ docker run -p 3000:3000 bparra/hello-docker:v1
+```
